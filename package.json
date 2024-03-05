@@ -1,0 +1,22 @@
+{
+  "name": "my-firebase-app",
+  "version": "1.0.0",
+  "description": "A REST API for managing books using Firebase Firestore",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["firebase", "firestore", "express", "node.js"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^9.11.1",
+    "dotenv": "^10.0.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
